@@ -1,0 +1,100 @@
+
+# Python / Flask
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtualenvs
+venv/
+env/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+*.whl
+
+# Pytest / test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs and editors
+.vscode/
+*.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+*.ipr
+*.iws
+*.pydevproject
+.mono_crash/
+
+# Visual Studio Code workspace storage
+.vscode/*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs, databases, runtime
+*.log
+*.sqlite3
+*.db
+instance/
+*.pid
+*.seed
+*.pid.lock
+
+# Secrets / env
+.env
+.env.*
+secrets.json
+*.key
+*.pem
+*.cert
+*.pfx
+*.secret
+
+# Coverage, caches, tooling
+.mypy_cache/
+.pyre/
+.pyrightcache/
+.cache/
+.ropeproject/
+cover/
+celerybeat-schedule
+
+# Jupyter
+.ipynb_checkpoints
+
+# Build artifacts from PyInstaller, C extensions
+dist/
+build/
+__pycache__/
+*.so
+*.dylib
+*.dll
+
+# Misc
+*.bak
+*.tmp
+*.swp
+
+# Allow common example/template config files (keep these in repo)
+!.env.example
+!config.example.py
+!requirements.txt
+!pyproject.toml
